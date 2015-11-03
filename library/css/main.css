@@ -4,7 +4,6 @@
  */
 /* FONT PATH
  * -------------------------- */
-
 @font-face {
   font-family: 'FontAwesome';
   src: url('//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0');
@@ -2535,6 +2534,12 @@ div.cf.newline:before {
   font-style: italic;
   content: "new line (this text will not appear in post)";
 }
+table td {
+  text-align: left;
+}
+table td + td {
+  text-align: right;
+}
 hr {
   border: none;
   border-top: 1px solid rgba(17, 86, 44, 0.5);
@@ -4124,7 +4129,7 @@ img.alignfull-width {
   border-right: 0;
 }
 .entry-content blockquote {
-  margin: 0 0 1.5em 0.75em;
+  margin: 1em 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
   border-left: 3px solid #2980b9;
   font-style: italic;
