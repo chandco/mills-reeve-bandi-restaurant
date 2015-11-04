@@ -8173,6 +8173,14 @@ input[type='submit']:hover {
 #wiki-content table {
   width: 100%;
 }
+#wiki-content table td {
+  width: 73%;
+  padding-top: 10px;
+  vertical-align: top;
+}
+#wiki-content table td + td {
+  width: 27%;
+}
 html {
   overflow-y: scroll;
 }
