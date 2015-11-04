@@ -2578,8 +2578,8 @@ hr {
   margin-bottom: 1em;
 }
 .wp-image-214 {
-  box-shadow: 0px 4px 182px #ffffff;
   border-radius: 15px;
+  border: solid 2px red;
 }
 #blog-sidebar {
   top: -60px;
@@ -4211,9 +4211,6 @@ img.alignfull-width {
   float: right;
   width: 66%;
 }
-.right-content > *:first-of-type {
-  margin-top: 0;
-}
 @media screen and (max-width: 900px) {
   .left-content,
   .right-content {
@@ -4679,11 +4676,6 @@ a[rel="category tag"]:hover {
 .archive .entry-content,
 .single-post .entry-content {
   padding: 1.5em 0 0;
-}
-.single-title,
-.page-title,
-.entry-title {
-  margin-top: 0;
 }
 .byline {
   font-size: 0.8em;
@@ -8123,7 +8115,6 @@ input[type='submit']:hover {
 .page-template-template-wiki h1 {
   font-size: 2.533333333em;
   line-height: 1.368421052em;
-  margin-top: 0;
 }
 @media screen and (min-width: 900px) {
   .page-template-template-wiki .footer {
@@ -8178,6 +8169,9 @@ input[type='submit']:hover {
 }
 #wiki-content .close-sub-section {
   display: none;
+}
+#wiki-content table {
+  width: 100%;
 }
 html {
   overflow-y: scroll;
