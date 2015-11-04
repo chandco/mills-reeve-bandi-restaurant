@@ -2577,6 +2577,10 @@ hr {
   position: relative;
   margin-bottom: 1em;
 }
+.wp-image-214 {
+  box-shadow: 0px 4px 182px #ffffff;
+  border-radius: 15px;
+}
 #blog-sidebar {
   top: -60px;
   padding-top: 60px;
