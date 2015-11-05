@@ -2573,13 +2573,18 @@ hr {
     padding-top: 40px;
   }
 }
+.single-title,
+.page-title,
+.entry-title {
+  margin-top: 0;
+}
 #carousel {
   position: relative;
   margin-bottom: 1em;
 }
 .wp-image-214 {
   border-radius: 15px;
-  border: solid 2px red;
+  margin-top: 40px !important;
 }
 #blog-sidebar {
   top: -60px;
@@ -2726,6 +2731,9 @@ body.white .cta-inline,
 body.white .cta {
   background: #000000;
   color: #ffffff !important;
+}
+body.page-id-17 {
+  background: #BB8DB9;
 }
 .page #inner-content .entry-content > .full-width-background:first-child {
   margin-top: 0;
@@ -4064,7 +4072,6 @@ html {
 body {
   margin: 0;
   width: 100%;
-  background: #212121;
   -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width: 600px) {
