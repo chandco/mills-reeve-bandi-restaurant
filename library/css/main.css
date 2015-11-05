@@ -4141,7 +4141,7 @@ img.alignfull-width {
   border-right: 0;
 }
 .entry-content blockquote {
-  margin: 1em 0 1.5em 0.75em;
+  margin: 3em 0 1.5em 0.75em;
   padding: 0 3em 0 3em;
   font-style: italic;
   color: #6D6E71;
@@ -4155,16 +4155,19 @@ img.alignfull-width {
   left: 0;
   color: #0099DD;
   font-size: 2em;
+  top: -30px;
+  padding-left: 20px;
 }
 .entry-content blockquote:after {
   font-family: FontAwesome;
   content: "\f10e";
   display: inline-block;
   position: absolute;
-  right: 20px;
+  right: 0;
   color: #0099DD;
   font-size: 2em;
-  bottom: 50px;
+  bottom: 20px;
+  padding-right: 20px;
 }
 .entry-content dd {
   margin-left: 0;
