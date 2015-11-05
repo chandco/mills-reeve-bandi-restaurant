@@ -107,10 +107,33 @@ img.alignfull-width {
   }
   blockquote {
     margin:1em 0 1.5em 0.75em;
-    padding:0 0 0 0.75em;
-    border-left:3px solid #2980b9;
+    padding:0 3em 0 3em;
+    //border-left:3px solid #2980b9;
     font-style:italic;
-    color:#9fa6b4;
+    color:#6D6E71;
+    position:relative;
+
+    &:before {
+      font-family: FontAwesome;
+      content: "\f10d";
+      display:inline-block;
+      position:absolute;
+      left:0;
+      color:#0099DD;
+      font-size:2em;
+    }
+
+    &:after {
+      font-family: FontAwesome;
+      content: "\f10e";
+      display:inline-block;
+      position:absolute;
+      right:20px;
+      color:#0099DD;
+      font-size:2em;
+      bottom: 50px;
+    
+    }
   }
   dd {
     margin-left:0;

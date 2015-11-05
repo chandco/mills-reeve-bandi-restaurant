@@ -2733,7 +2733,7 @@ body.white .cta {
   color: #ffffff !important;
 }
 body.page-id-17 {
-  background: #BB8DB9;
+  background: #DACCCC;
 }
 .page #inner-content .entry-content > .full-width-background:first-child {
   margin-top: 0;
@@ -4142,10 +4142,29 @@ img.alignfull-width {
 }
 .entry-content blockquote {
   margin: 1em 0 1.5em 0.75em;
-  padding: 0 0 0 0.75em;
-  border-left: 3px solid #2980b9;
+  padding: 0 3em 0 3em;
   font-style: italic;
-  color: #9fa6b4;
+  color: #6D6E71;
+  position: relative;
+}
+.entry-content blockquote:before {
+  font-family: FontAwesome;
+  content: "\f10d";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  color: #0099DD;
+  font-size: 2em;
+}
+.entry-content blockquote:after {
+  font-family: FontAwesome;
+  content: "\f10e";
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  color: #0099DD;
+  font-size: 2em;
+  bottom: 50px;
 }
 .entry-content dd {
   margin-left: 0;
