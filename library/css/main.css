@@ -2733,11 +2733,17 @@ body.white .cta {
   color: #ffffff !important;
 }
 body.page-id-17 {
-  background: #99A1BD;
+  background: #293A77;
+}
+body.page-id-17 h1 {
+  color: #ffffff;
 }
 body.page-id-17 .entry-content .section:nth-of-type(2) h2 {
-  background: #F5F5F5;
-  border-bottom: solid 2px #D6D6D6;
+  background: #009ADD;
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .page #inner-content .entry-content > .full-width-background:first-child {
   margin-top: 0;
@@ -4145,32 +4151,14 @@ img.alignfull-width {
   border-right: 0;
 }
 .entry-content blockquote {
-  margin: 3em 0 1.5em 0.75em;
-  padding: 0 3em 0 3em;
+  margin: 0 0 1.5em 0;
+  padding: 0 0 0 0;
   font-style: italic;
   color: #6D6E71;
   position: relative;
-}
-.entry-content blockquote:before {
-  font-family: FontAwesome;
-  content: "\f10d";
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  color: #0099DD;
-  font-size: 2em;
-  top: -30px;
-  padding-left: 20px;
-}
-.entry-content blockquote:after {
-  font-family: FontAwesome;
-  content: "\f10e";
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  color: #0099DD;
-  font-size: 2em;
-  padding-right: 20px;
+  font-size: .9em;
+  border: solid 1px #009ADD;
+  padding: 10px;
 }
 .entry-content dd {
   margin-left: 0;
