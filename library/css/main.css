@@ -5231,6 +5231,7 @@ a[rel="category tag"]:hover {
   color: #ffffff;
   border-bottom: 2px solid rgba(0, 118, 170, 0.2);
   border-radius: 4px;
+  box-shadow: 0px 2px 5px #9C9A9A;
 }
 .widget input[type="text"],
 .widget input[type="datetime"],
@@ -5249,7 +5250,7 @@ a[rel="category tag"]:hover {
   background: rgba(0, 0, 0, 0.2);
 }
 .widget h4 {
-  background: #2e2e2e;
+  background: #345A6D;
   padding: 1em;
 }
 .widget .textwidget p {
