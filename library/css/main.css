@@ -8328,7 +8328,7 @@ html {
 .page-template-template-home .right-content table td:first-of-type:nth-last-of-type(6n),
 .page-template-template-home .left-content table td:first-of-type:nth-last-of-type(6n) {
   background: rgba(255, 255, 255, 0.8);
-  color: #11562c;
+  color: #990066;
   text-align: left;
 }
 .page-template-template-home .right-content table tr:first-of-type,
@@ -8342,7 +8342,7 @@ html {
 }
 .page-template-template-home .right-content table tr:first-of-type td.today,
 .page-template-template-home .left-content table tr:first-of-type td.today {
-  background: #11562c;
+  background: #b30077;
   color: #ffffff;
 }
 .page-template-template-home .right-content table tr:first-of-type td:first-of-type:nth-last-of-type(6n),
@@ -8375,8 +8375,8 @@ html {
 .page-template-template-home .left-content table td.today {
   color: black;
   background: rgba(255, 255, 255, 0.5);
-  border-left: 1px solid #11562c;
-  border-right: 1px solid #11562c;
+  border-left: 1px solid #990066;
+  border-right: 1px solid #990066;
 }
 @media screen and (min-width: 800px) {
   .page-template-template-home .right-content table tr:first-of-type td.today:first-child,
