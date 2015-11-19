@@ -15,16 +15,25 @@
 
 
 .widget {
-  padding: 1em 1em 2em 1em;
+  //padding: 1em 1em 2em 1em;
   padding-bottom: 1em;
   margin: 0 0 2.2em 0; 
-  background: @widget-background;
+  background: darken(@widget-background, 10%);
   color: @widget-color;
   border-bottom: 2px solid fade( darken(@widget-background, 10%), 20% );
   border-radius: 4px;
 
   input[type="text"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .field {
     background: fade(black, 20%);
+  }
+
+  h4 {
+    background:lighten(@black, 5%);
+    padding:1em;
+  }
+
+  .textwidget p {
+    padding:10px;
   }
 }
   .widget ul li {
