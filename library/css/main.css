@@ -6759,10 +6759,12 @@ img.mfp-img {
 #inner-footer ul#menu-home-menu-1:first-child > li {
   float: left;
   width: calc(16.66666667%);
-  margin-bottom: 50px;
 }
 #inner-footer ul#menu-home-menu-1 ul.sub-menu {
   padding: 0;
+}
+#inner-footer ul#menu-home-menu-1 ul.sub-menu > li:hover {
+  color: #009add;
 }
 #inner-footer .textwidget {
   font-size: 0.8em;
