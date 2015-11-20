@@ -1,3 +1,27 @@
+#inner-footer {
+  display:block;
+  
+
+  div[class^="col-"] nav {
+    width:100%;
+
+    li > a {
+      &:before {
+        content: none;
+      }
+    }
+  }
+  
+  ul#menu-home-menu-1 {
+    &:first-child {
+     > li {
+        float:left;
+        width:calc(100% / 3);
+        margin-bottom:50px;
+      }
+    }      
+  }
+}
 
 
 #inner-footer .textwidget {

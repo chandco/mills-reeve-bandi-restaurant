@@ -6747,6 +6747,20 @@ img.mfp-img {
   top: 1px;
   background-color: #2472a4;
 }
+#inner-footer {
+  display: block;
+}
+#inner-footer div[class^="col-"] nav {
+  width: 100%;
+}
+#inner-footer div[class^="col-"] nav li > a:before {
+  content: none;
+}
+#inner-footer ul#menu-home-menu-1:first-child > li {
+  float: left;
+  width: calc(33.33333333%);
+  margin-bottom: 50px;
+}
 #inner-footer .textwidget {
   font-size: 0.8em;
 }
