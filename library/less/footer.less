@@ -23,6 +23,11 @@ footer {
      > li {
         float:left;
         width:calc(100% / 6);
+
+        @media screen and (max-width: @mobile-break) {
+          width:100%;
+        }
+
       }
     }
 

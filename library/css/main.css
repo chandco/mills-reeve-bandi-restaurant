@@ -6763,6 +6763,11 @@ footer .footerinfo {
   float: left;
   width: calc(16.66666667%);
 }
+@media screen and (max-width: 30em) {
+  #inner-footer ul#menu-home-menu-1:first-child > li {
+    width: 100%;
+  }
+}
 #inner-footer ul#menu-home-menu-1 ul.sub-menu {
   padding: 0;
 }
