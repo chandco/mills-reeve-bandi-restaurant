@@ -2778,10 +2778,11 @@ body.page-id-17 #content {
 body.page-id-17 .entry-content .section:nth-of-type(2) h2 {
   background: #009ADD;
   color: #ffffff;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom: solid 2px #0A719E;
+  border-bottom: solid 3px #2980B9;
 }
 .page #inner-content .entry-content > .full-width-background:first-child {
   margin-top: 0;
@@ -4213,18 +4214,20 @@ img.alignfull-width {
   margin: 2.5em 0 1.5em 0;
   padding: 0 0 0 0;
   font-style: italic;
-  color: #6D6E71;
+  color: #383B3C;
   position: relative;
   font-size: .9em;
   padding: 10px;
+  border-left: solid 1px #009add;
+  border-right: solid 1px #009add;
 }
 .entry-content blockquote:before {
   font-family: FontAwesome;
   content: "\f10d";
   display: inline-block;
   position: absolute;
-  left: 0;
-  color: #0099DD;
+  left: 12px;
+  color: #868E92;
   font-size: .9em;
   top: -20px;
 }
@@ -4233,8 +4236,8 @@ img.alignfull-width {
   content: "\f10e";
   display: inline-block;
   position: absolute;
-  right: 0;
-  color: #0099DD;
+  right: 12px;
+  color: #868E92;
   font-size: .9em;
 }
 .entry-content dd {
