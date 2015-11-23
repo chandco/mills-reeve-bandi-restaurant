@@ -26,6 +26,13 @@ footer {
         float:left;
         width:calc(100% / 6);
 
+      > a {
+          &:first-child {
+              color: #6EBFE2;
+              text-decoration: underline;
+          }
+        }
+
         @media screen and (max-width: @mobile-break) {
           width:100%;
         }
@@ -279,7 +286,7 @@ footer {
   z-index: 500;
 
 
-  background: @footer-background;
+  background: lighten(@footer-background, 5%);
   a {
     color: @footer-link-color;
     &:hover {
