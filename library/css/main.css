@@ -2735,6 +2735,8 @@ body.white .cta {
 body.page-id-2238 #wiki-menu {
   background: #009ADD;
   box-shadow: -4px 0px 6px #cacaca;
+  left: 0;
+  margin-right: 0;
 }
 body.page-id-2238 #wiki-menu h2:first-of-type {
   color: #fff;
@@ -2749,6 +2751,12 @@ body.page-id-2238 #wiki-menu .visual-menu li > a {
 }
 body.page-id-2238 #wiki-menu .visual-menu li.active-parent {
   background: #990066;
+}
+body.page-id-2238 #wiki-content {
+  width: 80%;
+  padding: 0 2em 2em 5%;
+  border-right: solid 1px #009ADD;
+  border-left: solid 1px #009ADD;
 }
 body.page-id-17 {
   background: #293A77;
