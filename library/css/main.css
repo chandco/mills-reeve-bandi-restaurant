@@ -2759,10 +2759,21 @@ body.page-id-2238 #wiki-content {
   border-left: solid 1px #009ADD;
 }
 body.page-id-17 {
-  background: #293A77;
+  background: #2C75A0;
 }
 body.page-id-17 h1 {
   color: #ffffff;
+  margin-top: 0;
+}
+body.page-id-17 .lusso-logo {
+  margin-top: 50px;
+  border-radius: 7px;
+}
+body.page-id-17 #carousel {
+  margin-bottom: 0;
+}
+body.page-id-17 #content {
+  padding-top: 0;
 }
 body.page-id-17 .entry-content .section:nth-of-type(2) h2 {
   background: #009ADD;
