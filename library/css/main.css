@@ -4365,7 +4365,7 @@ img.alignfull-width {
 }
 footer .footerinfo {
   margin-top: 2em;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 2px solid #ffffff;
   padding: 2em 0 20px;
 }
 footer .widget:first-of-type {
@@ -6776,8 +6776,8 @@ img.mfp-img {
   top: 1px;
   background-color: #2472a4;
 }
-footer .footerinfo {
-  border-top: 2px solid #fff;
+footer #inner-footer .col-smart {
+  width: 100%;
 }
 #inner-footer {
   display: block;
