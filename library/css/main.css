@@ -6082,8 +6082,8 @@ a[rel="category tag"]:hover {
 .cycle-slideshow .slick-list .slick-track .slick-slide img {
   display: block;
   margin: auto;
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
   border: 0;
   outline: 0;
 }
