@@ -3618,10 +3618,16 @@ dl {
   width: 15%;
   position: relative;
 }
+@media screen and (max-width: 524px) {
+  .header #inner-header #logo {
+    margin-right: 30px;
+  }
+}
 .header #inner-header #logo img {
   position: absolute;
   display: block;
-  width: 80%;
+  width: auto;
+  max-width: 100%;
   height: auto;
   margin: auto;
   top: 50%;
@@ -3634,20 +3640,22 @@ dl {
 @media screen and (max-width: 768px) {
   .header #inner-header #logo {
     height: 100%;
-    width: 12%;
+    width: auto;
   }
   .header #inner-header #logo img {
     width: auto;
     height: 85%;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 524px) {
   .header #inner-header #logo {
     height: 100%;
-    width: 15%;
+    width: auto;
   }
   .header #inner-header #logo img {
-    width: 69%;
+    max-width: 100%;
+    margin-left: 0;
   }
 }
 .header {
@@ -3675,6 +3683,9 @@ dl {
           backface-visibility: hidden;
   height: 100%;
 }
+.header #inner-header .fa-bars {
+  color: #fff;
+}
 .header #inner-header nav[role="navigation"] {
   width: 85%;
   right: 0;
@@ -3695,6 +3706,16 @@ dl {
 @media screen and (max-width: 900px) {
   .header #inner-header #logo {
     left: 2%;
+  }
+}
+@media screen and (min-width: 525px) and (max-width: 900px) {
+  .header #inner-header #logo {
+    left: -28px;
+  }
+}
+@media screen and (max-width: 524px) {
+  .header #inner-header #logo {
+    left: -28px;
   }
 }
 nav[role="navigation"] .nav {

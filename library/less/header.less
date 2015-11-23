@@ -31,6 +31,10 @@
 
 
 .header #inner-header #logo {
+
+    @media screen and (max-width: 524px) {
+      margin-right:30px;
+    }
   
   
   height: @header-logo-height;
@@ -45,7 +49,8 @@
   img {
     position: absolute;
     display: block;
-    width: 80%;
+    width: auto;
+    max-width:100%;
     height: auto;
     margin: auto;
     top: 50%;
@@ -56,22 +61,25 @@
 
   @media screen and (max-width: 768px) {
     height: 100%;
-    width: 12%;
+    width:auto;
 
     img {
       width: auto;
       height: 85%;
+      margin-left:0;
     }
   }
 
   @media screen and (max-width: 524px) {
     height:100%;
-    width: 15%;
+    width:auto;
+ 
 
 
 
     img {
-      width: 69%;
+      max-width: 100%;
+      margin-left:0;
     }
 
     
@@ -115,6 +123,10 @@
 
     #inner-header {
       backface-visibility: hidden;
+
+      .fa-bars {
+        color:#fff;
+      }
       
       
       
@@ -137,9 +149,6 @@
 
     #logo {
       
-     
-     
-      
       left: 0;
 
       display: block;
@@ -152,6 +161,16 @@
         @media screen and (max-width: 900px) {
           left: 2%;
         }
+
+         @media screen and (min-width: 525px) and (max-width:900px) {
+          left: -28px;
+        }
+
+        @media screen and (max-width: 524px) {
+          left: -28px;
+        }
+
+
 
       
     }     
