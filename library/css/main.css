@@ -2759,15 +2759,25 @@ body.page-id-2238 #wiki-content {
   border-left: solid 1px #009ADD;
 }
 body.page-id-17 {
-  background: #2C75A0;
+  background: #377092;
+}
+body.page-id-17 .entry-content .section:first-child .wider {
+  border-left: solid 1px #fff;
+}
+body.page-id-17 .blue {
+  background: #0D88BD !important;
 }
 body.page-id-17 h1 {
   color: #ffffff;
   margin-top: 0;
 }
-body.page-id-17 .lusso-logo {
-  margin-top: 50px;
+body.page-id-17 img.lusso-logo {
+  margin-top: 55px;
   border-radius: 7px;
+}
+body.page-id-17 img.home-page-stack {
+  border: solid 15px #9A377A;
+  box-shadow: 1px 3px 11px #717275;
 }
 body.page-id-17 #carousel {
   margin-bottom: 0;
@@ -2776,13 +2786,13 @@ body.page-id-17 #content {
   padding-top: 0;
 }
 body.page-id-17 .entry-content .section:nth-of-type(2) h2 {
-  background: #009ADD;
+  background: #990066;
   color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom: solid 3px #2980B9;
+  border-bottom: solid 3px #710B4F;
 }
 .page #inner-content .entry-content > .full-width-background:first-child {
   margin-top: 0;
@@ -4218,8 +4228,8 @@ img.alignfull-width {
   position: relative;
   font-size: .9em;
   padding: 10px;
-  border-left: solid 1px #009add;
-  border-right: solid 1px #009add;
+  border-left: solid 1px #990066;
+  border-right: solid 1px #990066;
 }
 .entry-content blockquote:before {
   font-family: FontAwesome;

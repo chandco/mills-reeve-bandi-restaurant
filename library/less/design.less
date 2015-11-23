@@ -310,16 +310,35 @@ body {
 
 //Home page
  body.page-id-17 {
-    background:#2C75A0;
+    background:#377092;
+
+    .entry-content {
+      .section {
+        &:first-child{
+          .wider {
+            border-left:solid 1px #fff;
+          }
+        }
+      }
+    }
+
+    .blue {
+      background:#0D88BD !important;
+    }
 
     h1 {
       color:#ffffff;
       margin-top:0;
     }
 
-    .lusso-logo {
-      margin-top:50px;
+    img.lusso-logo {
+      margin-top:55px;
       border-radius:7px;
+    }
+
+    img.home-page-stack {
+      border: solid 15px #9A377A;
+      box-shadow: 1px 3px 11px #717275;
     }
 
     #carousel {
@@ -337,13 +356,13 @@ body {
             &:nth-of-type(2) {
 
               h2 {
-                 background: #009ADD;
+                 background: #990066;
                  color:#ffffff;
                  padding-left:20px;
                  padding-right:20px;
                  margin-top:0;
                  margin-bottom:0;
-                 border-bottom:solid 3px #2980B9;
+                 border-bottom: solid 3px #710B4F;
               }       
           }
         }
