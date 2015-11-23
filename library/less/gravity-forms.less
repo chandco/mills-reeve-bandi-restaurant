@@ -1,4 +1,8 @@
-
+.entry-content .gform_wrapper .ginput_container {
+	input, textarea {
+		width:100%;
+	}
+}
 
 .gform_fields {
 	padding: 0;
@@ -32,6 +36,9 @@
 
 
 .gform_wrapper {
+	background:#dddddd;
+	padding:1% 2%;
+
 	&:after {
 		display: block;
 		clear: both;
@@ -65,13 +72,25 @@
 input[type='submit'] {
 	border: none;
 	background: @highlight;
-	padding: .3em .6em;
 	color: #fff;
 	border-radius: 2px;
 	min-width: 20%;
-	font-size: 1.4em;
+	font-weight:bold;
+    width: auto;
+    font-size: 1em;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    padding: 2%;
+    border-bottom: 2px solid #003746;
+    color: #ffffff;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+
+
 	&:hover {
-		background: lighten(@highlight,20%);
+		background: lighten(@highlight,10%);
 	}
 }
 

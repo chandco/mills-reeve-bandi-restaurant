@@ -7774,7 +7774,7 @@ textarea {
   border: 0;
   width: 100%;
   max-width: 100%;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
   min-height: 120px;
@@ -7821,7 +7821,7 @@ input[type="color"],
   box-shadow: none;
   border: 0;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
 }
@@ -7881,6 +7881,10 @@ input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[t
   background-color:#d5edf8;
 }
 */
+.entry-content .gform_wrapper .ginput_container input,
+.entry-content .gform_wrapper .ginput_container textarea {
+  width: 100%;
+}
 .gform_fields {
   padding: 0;
   list-style-type: none;
@@ -7903,6 +7907,8 @@ input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[t
   }
 }
 .gform_wrapper {
+  background: #dddddd;
+  padding: 1% 2%;
   margin-bottom: 2em;
 }
 .gform_wrapper:after {
@@ -7928,14 +7934,24 @@ input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[t
 input[type='submit'] {
   border: none;
   background: #0086ac;
-  padding: .3em .6em;
   color: #fff;
   border-radius: 2px;
   min-width: 20%;
-  font-size: 1.4em;
+  font-weight: bold;
+  width: auto;
+  font-size: 1em;
+  height: auto;
+  position: relative;
+  margin: auto;
+  display: inline-block;
+  padding: 2%;
+  border-bottom: 2px solid #003746;
+  color: #ffffff;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
 }
 input[type='submit']:hover {
-  background: #13cbff;
+  background: #00aedf;
 }
 #gform_2 #field_2_5 {
   width: 66%;
