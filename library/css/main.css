@@ -5307,6 +5307,7 @@ a[rel="category tag"]:hover {
   background: #345A6D;
   padding: 1em;
   font-size: 1.3em;
+  border-bottom: 2px solid #ffffff;
 }
 .widget .textwidget p {
   padding: 10px;
