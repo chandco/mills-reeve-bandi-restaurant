@@ -181,7 +181,6 @@
 
 
 nav[role="navigation"] {
-
   
 
   .nav {  
@@ -249,6 +248,10 @@ nav[role="navigation"] {
           background: @nav-highlight;
           a {
             color: @nav-highlight-text;
+
+            @media screen and (max-width: 900px)  {
+              color:#009add;
+            }
           }
         }
 
@@ -424,11 +427,12 @@ nav[role="navigation"] {
           .alpha-color(@light, 0.8);
           border-bottom: 1px solid @alpha-color;
           padding: 5px;
-          color: @dark;
+          color: #009add;
+          border-bottom:solid 1px #990066 ;
 
           &:hover .sub-menu, &:hover .children {
            padding: 0 0 0 10px;
-
+           border:0;
           }
         }
 
@@ -506,7 +510,7 @@ nav[role="navigation"] {
           
           &:hover {
 
-              background: RGBA(0,0,0,0.2);
+              //background: RGBA(0,0,0,0.2);
          }
           .sub-menu {
             
