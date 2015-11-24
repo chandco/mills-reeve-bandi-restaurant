@@ -3713,7 +3713,8 @@ dl {
           backface-visibility: hidden;
   height: 100%;
 }
-.header #inner-header .fa-bars {
+.header #inner-header .fa-bars,
+.header #inner-header .fa-close {
   color: #fff;
 }
 .header #inner-header nav[role="navigation"] {
