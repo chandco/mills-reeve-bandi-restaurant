@@ -6683,6 +6683,11 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+.page-id-2509 .entry-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .comment-respond {
   zoom: 1;
   padding: 1.5em;
