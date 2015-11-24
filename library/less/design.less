@@ -302,6 +302,10 @@ body {
           padding: 0 2em 2em 5%;
           border-right: solid 1px #009ADD;
           border-left: solid 1px #009ADD;
+
+          @media screen and (max-width:900px) {
+            border:none;
+          }
         }
       }
     
@@ -317,6 +321,9 @@ body {
         &:first-child{
           .wider {
             border-left:solid 1px #fff;
+            @media screen and (max-width:900px) {
+              border:none;
+            }
           }
         }
       }
@@ -334,6 +341,9 @@ body {
     img.lusso-logo {
       margin-top:53px;
       //border-radius:7px;
+      @media screen and (max-width:480px) {
+        margin-top:0;
+      }
     }
 
     img.home-page-stack {

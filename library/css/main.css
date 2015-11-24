@@ -2758,11 +2758,21 @@ body.page-id-2238 #wiki-content {
   border-right: solid 1px #009ADD;
   border-left: solid 1px #009ADD;
 }
+@media screen and (max-width: 900px) {
+  body.page-id-2238 #wiki-content {
+    border: none;
+  }
+}
 body.page-id-17 {
   background: #377092;
 }
 body.page-id-17 .entry-content .section:first-child .wider {
   border-left: solid 1px #fff;
+}
+@media screen and (max-width: 900px) {
+  body.page-id-17 .entry-content .section:first-child .wider {
+    border: none;
+  }
 }
 body.page-id-17 .blue {
   background: #0D88BD !important;
@@ -2773,6 +2783,11 @@ body.page-id-17 h1 {
 }
 body.page-id-17 img.lusso-logo {
   margin-top: 53px;
+}
+@media screen and (max-width: 480px) {
+  body.page-id-17 img.lusso-logo {
+    margin-top: 0;
+  }
 }
 body.page-id-17 img.home-page-stack {
   box-shadow: 0px 4px 7px #BBBABA;
