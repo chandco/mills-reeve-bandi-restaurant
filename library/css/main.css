@@ -8306,7 +8306,7 @@ input[type='submit']:hover {
 }
 @media screen and (min-width: 900px) {
   #wiki-content article {
-    border-bottom: 1px solid rgba(17, 86, 44, 0.5);
+    border-bottom: 1px solid #009add;
     margin-bottom: 3em;
   }
   #wiki-content article:last-of-type {
