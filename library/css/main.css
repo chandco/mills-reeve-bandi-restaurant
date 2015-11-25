@@ -2776,17 +2776,13 @@ body.page-id-2238 #wiki-content {
 body.page-id-17 {
   background: #377092;
 }
-body.page-id-17 .entry-content .section:first-child .wider {
-  border-left: solid 1px #fff;
+body.page-id-17 .entry-content .section .col-smart:first-child {
+  background: #0f80b1;
+  position: relative;
 }
-@media screen and (max-width: 900px) {
-  body.page-id-17 .entry-content .section:first-child .wider {
-    border: none;
-  }
-}
-@media screen and (min-width: 900px) and (max-width: 1300px) {
-  body.page-id-17 .entry-content .section:first-child .wider {
-    border-left: 0;
+@media screen and (max-width: 768px) {
+  body.page-id-17 .entry-content .section .col-smart:first-child {
+    background: none;
   }
 }
 body.page-id-17 .blue {
@@ -2797,17 +2793,20 @@ body.page-id-17 h1 {
   margin-top: 0;
 }
 body.page-id-17 img.lusso-logo {
-  margin-top: 5.7em;
+  border: solid 4px #ACCFDE;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   body.page-id-17 img.lusso-logo {
-    margin-top: 0;
-    margin-bottom: 30px;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    margin-top: -72px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 900px) {
+@media screen and (min-width: 1071px) {
   body.page-id-17 img.lusso-logo {
-    margin-top: 11em;
+    left: 50%;
+    margin-left: -150px;
   }
 }
 body.page-id-17 img.home-page-stack {
