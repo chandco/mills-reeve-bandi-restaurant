@@ -2742,8 +2742,8 @@ body.page-id-225 .page-title,
 body.page-id-227 .page-title {
   margin-top: 1em;
 }
-body.page-id-2574 h2 {
-  margin-top: 0;
+body.page-id-2574 .section .row:nth-of-type(1) h2 {
+  margin-top: 0.5em;
 }
 body.page-id-78 p,
 body.page-id-31 p,
