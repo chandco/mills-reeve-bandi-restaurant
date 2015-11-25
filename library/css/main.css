@@ -4231,7 +4231,6 @@ img.alignfull-width {
 }
 .entry-content table {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5em;
 }
 .entry-content table caption {
@@ -4240,9 +4239,6 @@ img.alignfull-width {
   color: #9fa6b4;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-.entry-content tr:nth-child(even) {
-  background-color: rgba(200, 200, 200, 0.2);
 }
 .entry-content td {
   padding: 7px;
