@@ -2745,6 +2745,11 @@ body.page-id-227 .page-title {
 body.page-id-2574 h2 {
   margin-top: 0;
 }
+body.page-id-78 p,
+body.page-id-31 p,
+body.page-id-35 p {
+  margin-top: 0;
+}
 body.page-id-2238 #wiki-menu {
   background: #009ADD;
   box-shadow: -4px 0px 6px #cacaca;
