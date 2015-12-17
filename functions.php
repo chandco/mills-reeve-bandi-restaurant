@@ -192,3 +192,54 @@ function BBG_WrapStuff( $post ) {
 
 
 }
+
+
+/**
+ * Get a list of all the Lusso posts from the Lusso website
+ *
+ * @return object The HTTP response that comes as a result of a wp_remote_get().
+ */
+function lusso_posts() {
+
+  // Do we have this information in our transients already?
+  $transient = get_site_transient( 'lusso_posts' );
+  
+  // Yep!  Just return it and we're done.
+  if( ! empty( $transient ) ) {
+    
+    // The function will return here every time after the first time it is run, until the transient expires.
+    return $transient;
+
+  // Nope!  We gotta make a call.
+  } else {
+  
+    // We got this url from the documentation for the remote API.
+    $url = 'http://www.lussocatering.co.uk/wp-json/posts?filter[posts_per_page]=3';
+
+    $body =  wp_remote_retrieve_body(wp_remote_get($url));
+
+    $json = json_decode($body);
+
+
+    
+    // We are structuring these args based on the API docs as well.
+    //$args = array(
+     // 'headers' => array(
+        //'token' => 'example_token'
+     // ),
+    //);
+    
+    // Call the API.
+    //$out = wp_remote_get( $url, $args );
+    
+    // Save the API response so we don't have to call again until tomorrow.
+
+    set_site_transient( 'lusso_posts', $json, MINUTE_IN_SECONDS );
+    
+    // Return the list of subscribers.  The function will return here the first time it is run, and then once again, each time the transient expires.
+    return $json;
+    
+  }
+  
+}
+
