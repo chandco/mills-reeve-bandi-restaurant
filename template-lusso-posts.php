@@ -31,11 +31,13 @@
 
 
 
-for ($i=0; $i<3; $i++) {
-	echo $i;
-}
+?>
 
+<div id="inner-content">
+	<div class="posts-container">
+	<h1><?php the_title(); ?></h1>
 
+<?php
 
 	foreach($json as $post){ 
  		$titles =  $post->title;
@@ -44,22 +46,26 @@ for ($i=0; $i<3; $i++) {
 
  	 	?>
 
+ 	 	<div class="lusso-posts">
 	 	<a href="<?php echo $link;?>">
-	 		<div class="lusso-posts">
+	 		
 	 				
 	 			<div class="image-container">
 	 				<?php echo strip_tags($images, '<img>'); ?>
 	 			</div>
 
-	 			<h4><?php echo $titles; ?></h4>
+	 			<h5><?php echo $titles; ?></h5>
 
-	 		</div>
+	 		
 	 	</a>
+	 	</div>
+
 		 <?php
  		}
 
 ?>
-
+	</div>
+</div>
 
 
 

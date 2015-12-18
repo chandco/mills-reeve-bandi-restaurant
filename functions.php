@@ -214,7 +214,7 @@ function lusso_posts() {
   } else {
   
     // We got this url from the documentation for the remote API.
-    $url = 'http://www.lussocatering.co.uk/wp-json/posts?filter[posts_per_page]=3';
+    $url = 'http://www.lussocatering.co.uk/wp-json/posts?filter[posts_per_page]=12';
 
     $body =  wp_remote_retrieve_body(wp_remote_get($url));
 

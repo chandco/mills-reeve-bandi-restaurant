@@ -8771,13 +8771,23 @@ html {
 .prices .price {
   text-align: right;
 }
-#container .lusso-posts {
+#container #inner-content .posts-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#container #inner-content .posts-container:nth-of-type(1n) .lusso-posts {
+  background: red;
+}
+#container #inner-content .posts-container .lusso-posts {
   background: green;
   width: 25%;
   margin-right: 10px;
   float: left;
 }
-#container .image-container {
+#container #inner-content .posts-container .image-container {
   background: green;
   position: relative;
   padding-bottom: 56.25%;
@@ -8785,21 +8795,20 @@ html {
   height: 0;
   overflow: hidden;
 }
-#container .image-container img {
+#container #inner-content .posts-container .image-container img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-#container .title {
+#container #inner-content .posts-container .title {
   background: green;
   clear: both;
 }
-#container .lusso-posts h4 {
-  padding-left: 2em;
+#container #inner-content .posts-container .lusso-posts h5 {
+  padding-left: 1em;
   color: #ffffff;
-  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
