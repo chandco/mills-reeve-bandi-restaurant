@@ -35,7 +35,9 @@
 
 <div id="inner-content">
 	<div class="posts-container">
-	<h1><?php the_title(); ?></h1>
+		<header class="article-header">
+			<h1 class="page-title"><?php the_title(); ?></h1>
+		</header>
 
 <?php
 
@@ -46,7 +48,7 @@
 
  	 	?>
 
- 	 	<div class="lusso-posts">
+ 	 	<div class="lusso-posts" title="<?php echo $titles; ?>">
 	 		<a href="<?php echo $link;?>">
 	 				
 	 			<div class="image-container">
@@ -61,7 +63,7 @@
 				//get the length of the post title
 				$getlength = strlen($thetitle);
 				//set a length to truncate the title to
-				$thelength = 25;
+				$thelength = 20;
 				//if title is longer than 20 it will ad "..." 
 				if ($getlength > $thelength) { 
 					echo "<h5>". substr($thetitle, 0, $thelength) . "...</h5>";
