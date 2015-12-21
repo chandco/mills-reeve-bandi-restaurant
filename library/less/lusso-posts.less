@@ -9,44 +9,25 @@
             margin-right: auto; 
             position: relative;
 
-            
-            .lusso-posts {
-                
+            &:after {
+                display: block;
+                clear:both;
+                content: '';
             }
-            
 
 
             .lusso-posts {
                 background:green;
-                width:25%;
-                margin-right:10px;
+                width:calc(25% - 2%);
+                margin-right:2%;
                 float:left;
+                margin-bottom:2%;
+
+                &:nth-of-type(4n+4) {
+                    margin-right:0;
+                }
             }
 
-
-
-
-            body.page-id-2574 {
-
-  .section {
-
-    .row {
-      &:nth-of-type(1) {
-        h2 {
-          margin-top:0.5em;
-        }
-      }
-    }
-   
-
-}
-
-}
-
-
-        
-
-    
 
 
             .image-container {

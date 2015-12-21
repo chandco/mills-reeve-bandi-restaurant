@@ -8778,14 +8778,20 @@ html {
   margin-right: auto;
   position: relative;
 }
+#container #inner-content .posts-container:after {
+  display: block;
+  clear: both;
+  content: '';
+}
 #container #inner-content .posts-container .lusso-posts {
   background: green;
-  width: 25%;
-  margin-right: 10px;
+  width: calc(23%);
+  margin-right: 2%;
   float: left;
+  margin-bottom: 2%;
 }
-#container #inner-content .posts-container body.page-id-2574 .section .row:nth-of-type(1) h2 {
-  margin-top: 0.5em;
+#container #inner-content .posts-container .lusso-posts:nth-of-type(4n+4) {
+  margin-right: 0;
 }
 #container #inner-content .posts-container .image-container {
   background: green;
