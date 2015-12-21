@@ -8778,14 +8778,14 @@ html {
   margin-right: auto;
   position: relative;
 }
-#container #inner-content .posts-container:nth-of-type(1n) .lusso-posts {
-  background: red;
-}
 #container #inner-content .posts-container .lusso-posts {
   background: green;
   width: 25%;
   margin-right: 10px;
   float: left;
+}
+#container #inner-content .posts-container body.page-id-2574 .section .row:nth-of-type(1) h2 {
+  margin-top: 0.5em;
 }
 #container #inner-content .posts-container .image-container {
   background: green;

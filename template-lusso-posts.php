@@ -47,22 +47,35 @@
  	 	?>
 
  	 	<div class="lusso-posts">
-	 	<a href="<?php echo $link;?>">
-	 		
+	 		<a href="<?php echo $link;?>">
 	 				
 	 			<div class="image-container">
 	 				<?php echo strip_tags($images, '<img>'); ?>
 	 			</div>
 
-	 			<h5><?php echo $titles; ?></h5>
 
-	 		
-	 	</a>
+	 			<?php
+
+	 			//get the title and store in a variable
+				$thetitle = $titles; /* or you can use get_the_title() */
+				//get the length of the post title
+				$getlength = strlen($thetitle);
+				//set a length to truncate the title to
+				$thelength = 20;
+				//if title is longer than 20 it will ad "..." 
+				if ($getlength > $thelength) { 
+					echo "<h5>". substr($thetitle, 0, $thelength) . "...</h5>";
+				} else {
+				//othwerwise we will show the title in it original format
+					echo "<h5>". $titles . "</h5>";
+				}
+				?>
+
+			</a>
 	 	</div>
 
-		 <?php
- 		}
-
+	<?php
+ 	}
 ?>
 	</div>
 </div>
