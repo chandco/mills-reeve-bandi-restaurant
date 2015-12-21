@@ -8784,14 +8784,39 @@ html {
   content: '';
 }
 #container #inner-content .posts-container .lusso-posts {
-  background: green;
+  background: #009add;
   width: calc(23%);
   margin-right: 2%;
   float: left;
   margin-bottom: 2%;
+  box-shadow: 0px 2px 3px #B3B3B3;
 }
 #container #inner-content .posts-container .lusso-posts:nth-of-type(4n+4) {
   margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  #container #inner-content .posts-container .lusso-posts {
+    width: calc(94%);
+    margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  #container #inner-content .posts-container .lusso-posts {
+    width: calc(44%);
+    margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 801px) {
+  #container #inner-content .posts-container .lusso-posts {
+    width: calc(27.33333333%);
+    margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
 #container #inner-content .posts-container .image-container {
   background: green;
@@ -8814,6 +8839,8 @@ html {
 }
 #container #inner-content .posts-container .lusso-posts h5 {
   padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1em;
   color: #ffffff;
 }
 

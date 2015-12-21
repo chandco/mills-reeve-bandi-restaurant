@@ -17,14 +17,36 @@
 
 
             .lusso-posts {
-                background:green;
+                background:@skyblue;
                 width:calc(25% - 2%);
                 margin-right:2%;
                 float:left;
                 margin-bottom:2%;
+                box-shadow:0px 2px 3px #B3B3B3;
 
                 &:nth-of-type(4n+4) {
                     margin-right:0;
+                }
+
+                @media screen and (max-width:500px) {
+                    width:calc(100% - 6%);
+                    margin-bottom:30px;
+                    margin-left:3%;
+                    margin-right:3%;
+                }
+
+                  @media screen and (min-width:501px) and (max-width: 768px) {
+                    width:calc(50% - 6%);
+                    margin-bottom:30px;
+                    margin-left:3%;
+                    margin-right:3%;
+                }
+
+                    @media screen and (min-width:769px) and (max-width: 801px) {
+                    width:calc((100% / 3) -6%);
+                    margin-bottom:30px;
+                    margin-left:3%;
+                    margin-right:3%;
                 }
             }
 
@@ -54,6 +76,8 @@
 
             .lusso-posts h5 {
                 padding-left:1em;
+                padding-right: 1em;
+                font-size:1em;
                 color:#ffffff;
             }
          }

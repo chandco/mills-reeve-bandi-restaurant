@@ -61,7 +61,7 @@
 				//get the length of the post title
 				$getlength = strlen($thetitle);
 				//set a length to truncate the title to
-				$thelength = 20;
+				$thelength = 25;
 				//if title is longer than 20 it will ad "..." 
 				if ($getlength > $thelength) { 
 					echo "<h5>". substr($thetitle, 0, $thelength) . "...</h5>";
