@@ -8795,25 +8795,42 @@ html {
 }
 #container #inner-content .posts-container .lusso-posts {
   background: #009add;
-  width: 32%;
+  width: 23.5%;
   margin-right: 2%;
   margin-bottom: 2%;
   float: left;
   box-shadow: 0px 2px 3px #B3B3B3;
 }
-#container #inner-content .posts-container .lusso-posts:nth-of-type(3n) {
+#container #inner-content .posts-container .lusso-posts:nth-of-type(4n) {
   margin-right: 0;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   #container #inner-content .posts-container .lusso-posts {
     width: 100%;
     float: left;
     margin-right: 2%;
   }
-  #container #inner-content .posts-container .lusso-posts:nth-of-type(3n) {
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(1n) {
     margin-right: 0;
   }
-  #container #inner-content .posts-container .lusso-posts:nth-of-type(1n) {
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #container #inner-content .posts-container .lusso-posts {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+  }
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  #container #inner-content .posts-container .lusso-posts {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+  }
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(3n) {
     margin-right: 0;
   }
 }

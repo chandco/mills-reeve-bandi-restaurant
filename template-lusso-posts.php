@@ -41,7 +41,7 @@
 
 <?php
 
-	foreach($json as $post){ 
+	foreach(($json) as $post){ 
  		$titles =  $post->title;
  		$images =  $post->featured_image->content;
  		$link 	=  $post->link;
