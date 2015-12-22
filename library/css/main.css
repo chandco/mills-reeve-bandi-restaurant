@@ -8810,6 +8810,9 @@ html {
     float: left;
     margin-right: 2%;
   }
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(4n) {
+    margin-right: 2%;
+  }
   #container #inner-content .posts-container .lusso-posts:nth-of-type(1n) {
     margin-right: 0;
   }
@@ -8820,6 +8823,9 @@ html {
     float: left;
     margin-right: 2%;
   }
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(4n) {
+    margin-right: 2%;
+  }
   #container #inner-content .posts-container .lusso-posts:nth-of-type(2n) {
     margin-right: 0;
   }
@@ -8828,6 +8834,9 @@ html {
   #container #inner-content .posts-container .lusso-posts {
     width: 32%;
     float: left;
+    margin-right: 2%;
+  }
+  #container #inner-content .posts-container .lusso-posts:nth-of-type(4n) {
     margin-right: 2%;
   }
   #container #inner-content .posts-container .lusso-posts:nth-of-type(3n) {

@@ -43,6 +43,10 @@
                 }
 
                 @media screen and (max-width:480px) {
+
+                    &:nth-of-type(@{columns}n) {
+                        margin-right:@margin;
+                    }
               
                     @columns-phone: 1;
 
@@ -56,6 +60,10 @@
                 }
 
                 @media screen and (min-width:481px) and (max-width:768px) {
+
+                     &:nth-of-type(@{columns}n) {
+                        margin-right:@margin;
+                    }
                
                     @columns-tablet: 2;
 
@@ -70,6 +78,10 @@
 
                 @media screen and (min-width:769px) and (max-width:992px) {
 
+                     &:nth-of-type(@{columns}n) {
+                        margin-right:@margin;
+                    }
+               
                     @columns-desktop: 3;
 
                     width:(100% - ((@columns-desktop - 1) * @margin)) / @columns-desktop;
