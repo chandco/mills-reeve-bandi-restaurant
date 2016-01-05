@@ -4437,8 +4437,7 @@ img.alignfull-width {
 }
 footer .footerinfo {
   margin-top: 2em;
-  border-top: 2px solid #990066;
-  padding: 2em 0 20px;
+  padding: 1em 0 20px;
 }
 footer .widget:first-of-type {
   margin-top: 0;
@@ -5320,7 +5319,6 @@ a[rel="category tag"]:hover {
 }
 .widgettitle {
   padding-bottom: 1em;
-  border-bottom: 2px solid #990066;
   margin-bottom: 1em;
   color: #ffffff;
   text-align: center;
@@ -6965,6 +6963,9 @@ footer #inner-footer .col-smart {
   padding: 0;
 }
 .footer nav[role="navigation"] {
+  border-top: 2px solid #990066;
+  border-bottom: 2px solid #990066;
+  padding: 2em 0;
   font-size: 0.8em;
 }
 .footer nav[role="navigation"] .nav {
@@ -8332,11 +8333,8 @@ input[type='submit']:hover {
 }
 @media screen and (min-width: 900px) {
   .page-template-template-wiki .footer {
-    width: 75%;
+    width: 80%;
     margin: 0 0 0 auto;
-  }
-  .page-template-template-wiki .footer > .max-central {
-    padding-left: 18%;
   }
 }
 @media screen and (max-width: 900px) {
